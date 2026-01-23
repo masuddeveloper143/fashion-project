@@ -31,32 +31,38 @@
 
 <body>
     <header class=" bg-[#FFFBF0]">
-        <section class="container mx-auto pl-4 max-w-[1440px] mx-auto ">
+        <section class="container mx-auto px-4 max-w-[1440px] mx-auto ">
             <nav class="">
                 <div class="w-full h-20 flex justify-between items-center border-red-500 ">
-                    <div class="w-[291px]">
+                    <div class=" w-40 md:w-[291px]">
                         <img src="./icons/logo.png" alt="">
                         <h1></h1>
                     </div>
 
                     <div>
-                        <ul class="flex gap-20">
-                            <li class="sm:block">Home</li>
-                            <li class="sm:block">Product</li>
-                            <li class="sm:block">About us</li>
-                            <li class="sm:block">Contact us</li>
-                            <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-</svg>
-</li>
+                        <ul class="hidden md:flex gap-20 ">
+                            <li>Home</li>
+                            <li>Product</li>
+                            <li>About us</li>
+                            <li>Contact us</li>
                         </ul>
+
+                        <div class="block md:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+
+                        </div>
+
                     </div>
                 </div>
             </nav>
             <!-- hero section  -->
             <div class="md:flex md:items-center md:justify-between ">
                 <div>
-                    <h1 class="uppercase text-7xl text-orange-400">Be the Penguins <br>
+                    <h1 class=" Class Properties text-wrap text-4xl md:uppercase w-full text-7xl text-orange-400">Be the Penguins <br>
                         <span class="text-stone-900">of Winter</span>
                     </h1>
                     <p class="w-1/2 my-3">Lorem Ipsum is simply dummy text of the printing
@@ -76,6 +82,11 @@
         </section>
 
     </header>
+    <main>
+        <section>
+            
+        </section>
+    </main>
 </body>
 
 </html>
