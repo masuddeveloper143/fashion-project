@@ -21,39 +21,60 @@
         font.roboto {
             font-family: "Roboto", sans-serif;
             font-optical-sizing: auto;
-            font-weight: <weight>;
+            font-weight: 400;
             font-style: normal;
             font-variation-settings:
-                "wdth" 100;
+
         }
     </style>
 </head>
 
 <body>
-    <header class="bg[FFFBF0] pl-4">
-        <nav>
+    <header class=" bg-[#FFFBF0]">
+        <section class="container mx-auto pl-4 max-w-[1440px] mx-auto ">
+            <nav class="">
+                <div class="w-full h-20 flex justify-between items-center border-red-500 ">
+                    <div class="w-[291px]">
+                        <img src="./icons/logo.png" alt="">
+                        <h1></h1>
+                    </div>
 
-        </nav>
-        <!-- hero section  -->
-        <div class="md:flex md:items-center md:justify-between">
-            <div>
-                <h1 class="uppercase text-7xl text-orange-400">Be the Penguins <br>
-                    <span class="text-stone-900">of Winter</span>
-                </h1>
-                <p>Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry.</p>
-                <button
-                    class="bg-green-500 py-4 px-5 ra rounded-xl text-white font-medium bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6 text-white inline">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                    </svg>BUY NOW</button>
+                    <div>
+                        <ul class="flex gap-20">
+                            <li class="sm:block">Home</li>
+                            <li class="sm:block">Product</li>
+                            <li class="sm:block">About us</li>
+                            <li class="sm:block">Contact us</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- hero section  -->
+            <div class="md:flex md:items-center md:justify-between ">
+                <div>
+                    <h1 class="uppercase text-7xl text-orange-400">Be the Penguins <br>
+                        <span class="text-stone-900">of Winter</span>
+                    </h1>
+                    <p class="w-1/2 my-3">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.</p>
+                    <button
+                        class="bg-green-500 py-4 px-5 ra rounded-xl text-white font-medium bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 text-white inline">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>BUY NOW</button>
+                </div>
+                <div>
+                    <img src="./images/model.png" alt="">
+                </div>
             </div>
-            <div>
-                <img src="./images/model.png" alt="">
-            </div>
-        </div>
+        </section>
+
     </header>
 </body>
 
